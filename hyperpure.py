@@ -277,12 +277,12 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     st.markdown("""
-    <div class="highlight-box" style="text-align: center; background: #2C3E50 !important; color: white !important; border-left: 5px solid #E23744 !important;">
-        <h3 style="color: white !important;">🚀 Why Choose Kashish?</h3>
-        <p style="color: white !important;">✅ Proven track record in data analysis & operations</p>
-        <p style="color: white !important;">✅ Experience leading cross-functional teams</p>
-        <p style="color: white !important;">✅ Strong technical skills with business acumen</p>
-        <p style="color: white !important;">✅ Proactive problem-solver with growth mindset</p>
+    <div style="background: #2C3E50; color: white; padding: 1.5rem; border-left: 5px solid #E23744; border-radius: 10px; margin: 1rem 0; text-align: center;">
+        <h3 style="color: white; margin-top: 0;">🚀 Why Choose Kashish?</h3>
+        <p style="color: white;">✅ Proven track record in data analysis & operations</p>
+        <p style="color: white;">✅ Experience leading cross-functional teams</p>
+        <p style="color: white;">✅ Strong technical skills with business acumen</p>
+        <p style="color: white;">✅ Proactive problem-solver with growth mindset</p>
     </div>
     """, unsafe_allow_html=True)
     
