@@ -51,7 +51,7 @@ st.markdown("""
     }
     
     .metric-card {
-        background: white;
+        background: black;
         padding: 1.5rem;
         border-radius: 10px;
         box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -117,7 +117,6 @@ with st.sidebar:
         <p>📱 (+91) 9811149303</p>
         <p>🔗 <a href="https://linkedin.com/in/kashish-bhasin" style="color: #FFB3B8;">LinkedIn Profile</a></p>
         <p>💻 <a href="https://github.com/kashishbhasinn" style="color: #FFB3B8;">GitHub Portfolio</a></p>
-        <p>📍 Based in Jaipur (Perfect match!)</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -140,13 +139,6 @@ col1, col2 = st.columns([2, 1])
 with col1:
     # Why I'm Perfect for Hyperpure
     st.markdown('<div class="section-header">🎯 Why I\'m Perfect for Hyperpure Operations</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="highlight-box">
-        <h4>🔥 Perfect Location Match</h4>
-        <p>Currently studying at <strong>Manipal University Jaipur</strong></p>
-    </div>
-    """, unsafe_allow_html=True)
     
     # Key qualifications for the role
     st.markdown("### 🚀 Key Qualifications for Operations Role")
