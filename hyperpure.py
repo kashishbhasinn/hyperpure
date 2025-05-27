@@ -306,7 +306,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; padding: 2rem; background: #2C3E50; color: white; border-radius: 10px;">
     <h4>📧 Ready to Connect?</h4>
-    <p>Let\'s discuss how I can contribute to Hyperpure\'s operations excellence! 🚀</strong></p>
+    <p>Let\'s discuss how I can contribute to Hyperpure\'s operations excellence! 🚀</p>
 </div>
 """, unsafe_allow_html=True)
 
