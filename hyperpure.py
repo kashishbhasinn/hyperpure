@@ -279,7 +279,7 @@ with col3:
 
 # Call to Action Section
 st.markdown("---")
-    st.markdown('<div class="section-header">🎯 Ready to Drive Hyperpure Operations Forward!</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">🎯 Ready to Drive Hyperpure Operations Forward!</div>', unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
