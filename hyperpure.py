@@ -139,12 +139,12 @@ col1, col2 = st.columns([2, 1])
 
 with col1:
     # Why I'm Perfect for Hyperpure
-    st.markdown('<div class="section-header">🎯 Why I'm Perfect for Hyperpure Operations</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-header">🎯 Why I\'m Perfect for Hyperpure Operations</div>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="highlight-box">
         <h4>🔥 Perfect Location Match</h4>
-        <p>Currently studying at <strong>Manipal University Jaipur</strong> - I'm already based in your preferred location!</p>
+        <p>Currently studying at <strong>Manipal University Jaipur</strong> - I\'m already based in your preferred location!</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -279,7 +279,7 @@ with col3:
 
 # Call to Action Section
 st.markdown("---")
-st.markdown('<div class="section-header">🎯 Ready to Drive Hyperpure Operations Forward!</div>', unsafe_allow_html=True)
+    st.markdown('<div class="section-header">🎯 Ready to Drive Hyperpure Operations Forward!</div>', unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
@@ -287,6 +287,7 @@ with col2:
     st.markdown("""
     <div class="highlight-box" style="text-align: center;">
         <h3>🚀 Why Choose Kashish?</h3>
+        <p>✅ Based in Jaipur (Your preferred location)</p>
         <p>✅ Proven track record in data analysis & operations</p>
         <p>✅ Experience leading cross-functional teams</p>
         <p>✅ Strong technical skills with business acumen</p>
@@ -298,6 +299,7 @@ with col2:
     if st.button("🎉 HIRE ME FOR HYPERPURE! 🎉", key="hire_me", help="Click to celebrate and contact!"):
         st.balloons()
         st.success("🎊 Thank you for considering my application! Let's revolutionize operations at Hyperpure together!")
+        st.info("📧 Contact me at: rohit.saran@zomato.com")
         time.sleep(1)
         st.balloons()
 
@@ -306,7 +308,8 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; padding: 2rem; background: #2C3E50; color: white; border-radius: 10px;">
     <h4>📧 Ready to Connect?</h4>
-    <p>Let's discuss how I can contribute to Hyperpure's operations excellence! 🚀</p>
+    <p>Send my resume to: <strong>rohit.saran@zomato.com</strong></p>
+            <p>Let\'s discuss how I can contribute to Hyperpure\'s operations excellence! 🚀</p>
 </div>
 """, unsafe_allow_html=True)
 
