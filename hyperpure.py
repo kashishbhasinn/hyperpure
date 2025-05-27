@@ -277,7 +277,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     st.markdown("""
-    <div class="highlight-box" style="text-align: center; background: #2C3E50; color: white;">
+    <div class="highlight-box" style="text-align: center; color: white;">
         <h3>🚀 Why Choose Kashish?</h3>
         <p>✅ Proven track record in data analysis & operations</p>
         <p>✅ Experience leading cross-functional teams</p>
