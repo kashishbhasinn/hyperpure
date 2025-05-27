@@ -144,7 +144,7 @@ with col1:
     st.markdown("""
     <div class="highlight-box">
         <h4>🔥 Perfect Location Match</h4>
-        <p>Currently studying at <strong>Manipal University Jaipur</strong> - I\'m already based in your preferred location!</p>
+        <p>Currently studying at <strong>Manipal University Jaipur</strong></p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -287,7 +287,6 @@ with col2:
     st.markdown("""
     <div class="highlight-box" style="text-align: center;">
         <h3>🚀 Why Choose Kashish?</h3>
-        <p>✅ Based in Jaipur (Your preferred location)</p>
         <p>✅ Proven track record in data analysis & operations</p>
         <p>✅ Experience leading cross-functional teams</p>
         <p>✅ Strong technical skills with business acumen</p>
@@ -299,7 +298,6 @@ with col2:
     if st.button("🎉 HIRE ME FOR HYPERPURE! 🎉", key="hire_me", help="Click to celebrate and contact!"):
         st.balloons()
         st.success("🎊 Thank you for considering my application! Let's revolutionize operations at Hyperpure together!")
-        st.info("📧 Contact me at: rohit.saran@zomato.com")
         time.sleep(1)
         st.balloons()
 
@@ -308,8 +306,7 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; padding: 2rem; background: #2C3E50; color: white; border-radius: 10px;">
     <h4>📧 Ready to Connect?</h4>
-    <p>Send my resume to: <strong>rohit.saran@zomato.com</strong></p>
-            <p>Let\'s discuss how I can contribute to Hyperpure\'s operations excellence! 🚀</p>
+    <p>Let\'s discuss how I can contribute to Hyperpure\'s operations excellence! 🚀</strong></p>
 </div>
 """, unsafe_allow_html=True)
 
