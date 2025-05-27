@@ -26,7 +26,7 @@ st.markdown("""
         background: linear-gradient(135deg, #FF6B73 0%, #FFB3B8 100%);
         padding: 1rem;
         border-radius: 10px;
-        color: black;
+        color: white;
         font-weight: bold;
         margin: 1rem 0;
         text-align: center;
@@ -277,7 +277,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:
     st.markdown("""
-    <div class="highlight-box" style="text-align: center;">
+    <div class="highlight-box" style="text-align: center; background: #2C3E50; color: white;">
         <h3>🚀 Why Choose Kashish?</h3>
         <p>✅ Proven track record in data analysis & operations</p>
         <p>✅ Experience leading cross-functional teams</p>
